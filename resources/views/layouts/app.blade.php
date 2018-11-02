@@ -39,6 +39,9 @@
                                 <a href="{{ route('home') }}">Home</a>
                             </nav>
                             <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
+                                <a href="{{ route('about') }}">About</a>
+                            </nav>
+                            <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
                                 <a href="{{ route('contact') }}">Contact</a>
                             </nav>
                         @endguest
