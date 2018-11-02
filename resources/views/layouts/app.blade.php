@@ -33,7 +33,15 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-
+                        @guest
+                        @else
+                            <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
+                                <a href="{{ route('home') }}">Home</a>
+                            </nav>
+                            <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
+                                <a href="{{ route('contact') }}">Contact</a>
+                            </nav>
+                        @endguest
                     </ul>
 
                     <!-- Right Side Of Navbar -->
