@@ -6,16 +6,16 @@ use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
-class RegisterTest extends TestCase
+class LoginTest extends TestCase
 {
     /**
      * A basic test example.
      *
      * @return void
      */
-    public function testRegisterTest()
+    public function testLoginTest()
     {
-        $response = $this->get('register');
+        $response = $this->get('login');
 
         $response->assertStatus(200);
     }
