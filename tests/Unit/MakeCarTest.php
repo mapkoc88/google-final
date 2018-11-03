@@ -7,17 +7,17 @@ use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use App\Car;
 
-class ModelCarTest extends TestCase
+class MakeCarTest extends TestCase
 {
     /**
      * A basic test example.
      *
      * @return void
      */
-    public function testModelCar()
+    public function testMakeCar()
     {
         $car =  Car::find(32);
-        $year= $car->make;
-        $this->assertEquals('ford', $year);
+        $make = $car->make;
+        $this->assertEquals('ford', $make);
     }
 }
