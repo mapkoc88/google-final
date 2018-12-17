@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Welcome to IS 601 - Project #2
+                    Welcome to My Final Project - Happy Holidays
                 </div>
             </div>
         </div>
