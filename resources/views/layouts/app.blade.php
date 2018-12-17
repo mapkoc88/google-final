@@ -35,6 +35,11 @@
                     <ul class="navbar-nav mr-auto">
                         @guest
                         @else
+                            @if (Auth::user()->image)
+                                <img src="{{ Auth::user()->image }}" height="50" width="50">
+                            @else
+                                <a></a>
+                            @endif
                             <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
                                 <a href="{{ route('home') }}">Home</a>
                             </nav>

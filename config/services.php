@@ -20,6 +20,11 @@ return [
         'endpoint' => env('MAILGUN_ENDPOINT', 'api.mailgun.net'),
     ],
 
+    'google' => [
+        'client_id' => '499850803805-43i8cj3nm7mkpe45tdg308dgtdo62koc.apps.googleusercontent.com',
+        'client_secret' => 'gItkcD5_13qhDQ8_zIv9BXS1',
+        'redirect' => '	https://google-feature.herokuapp.com/callback'],
+
     'ses' => [
         'key' => env('SES_KEY'),
         'secret' => env('SES_SECRET'),
