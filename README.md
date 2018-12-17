@@ -1,3 +1,7 @@
+###Epic
+
+- Login to application using Google Credentials
+
 ###User Stories
 
 - User can view "Authenticated Content" using their Google Credentials
